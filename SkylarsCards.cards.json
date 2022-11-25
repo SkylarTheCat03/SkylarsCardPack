@@ -1,0 +1,160 @@
+{
+	"ModSource": "SkylarsCards",
+	"StatCards": [
+		{
+			"Name": "Tainted EXP",
+			"TexturePath": "icons/questionmark.png",
+			"Rarity": "Heroic",
+			"Tags": [ "None" ],
+			"DropWeight": 0.01,
+			"LevelUpWeight": 0.02,
+			"MaxLevel": 5,
+			"Modifiers": [
+				{
+					"ModifierValue": 5,
+					"ModifierType": "Additional",
+					"Stat": "XPMultiplier"
+				},
+				{
+					"ModifierValue": 10,
+					"ModifierType": "Additional",
+					"Stat": "Corruption"
+				}
+			],
+			
+			"NameLocalization": {
+				"en": "Tainted EXP"
+			},
+			
+			"DescriptionLocalization":{
+				"en": "EXP comes at a cost"
+			}
+		},
+		{
+			"Name": "My Hope Will Never Die",
+			"TexturePath": "icons/questionmark.png",
+			"Rarity": "Heroic",
+			"Tags": [ "Defence" ],
+			"DropWeight": 0.01,
+			"LevelUpWeight": 0.02,
+			"MaxLevel": 1,
+			"Modifiers": [
+				{
+					"ModifierValue": 2.5,
+					"ModifierType": "Multiplier",
+					"Stat": "HealthRegen"
+				},
+				{
+					"ModifierValue": 2,
+					"ModifierType": "Multiplier",
+					"Stat": "MaxHealth"
+				}
+			],
+			
+			"NameLocalization": {
+				"en": "Heroes Will Never Die"
+			},
+			
+			"DescriptionLocalization":{
+				"en": "Become Invincible"
+			}
+		},
+		{
+			"Name": "Woody's Card",
+			"TexturePath": "icons/questionmark.png",
+			"Rarity": "Heroic",
+			"Tags": [ "Might" ],
+			"DropWeight": 0.01,
+			"LevelUpWeight": 0.02,
+			"MaxLevel": 1,
+			"Modifiers": [
+				{
+					"ModifierValue": 100,
+					"ModifierType": "Multiplier",
+					"Stat": "Damage"
+				},
+				{
+					"ModifierValue": 0.5,
+					"ModifierType": "Multiplier",
+					"Stat": "AttackCooldown"
+				},
+				{
+					"ModifierValue": 1.5,
+					"ModifierType": "Multiplier",
+					"Stat": "AreaSize"
+				},
+				{
+					"ModifierValue": 10,
+					"ModifierType": "Additional",
+					"Stat": "PickUpDistance"
+				}
+			],
+			
+			"NameLocalization": {
+				"en": "Finger Of Zeus"
+			},
+			
+			"DescriptionLocalization":{
+				"en": "Become Invincible"
+			}
+		},
+		{
+			"Name": "Projectiles",
+			"TexturePath": "icons/questionmark.png",
+			"Rarity": "Rare",
+			"Tags": [ "Might" ],
+			"DropWeight": 0.1,
+			"LevelUpWeight": 0.2,
+			"MaxLevel": 5,
+			"Modifiers": [
+				{
+					"ModifierValue": 1.2,
+					"ModifierType": "Multiplier",
+					"Stat": "AdditionalProjectile"
+				},
+				{
+					"ModifierValue": 1.5,
+					"ModifierType": "Compound",
+					"Stat": "ProjectilePiercing"
+				},
+				{
+					"ModifierValue": 1.2,
+					"ModifierType": "Multiplier",
+					"Stat": "ProjectileLifeTime"
+				}
+			],
+			
+			"NameLocalization": {
+				"en": "Projectile God"
+			},
+			
+			"DescriptionLocalization":{
+				"en": "I CANT SEE MY SCREEN"
+			}
+		},
+		{
+			"Name": "GoldMulti",
+			"TexturePath": "icons/questionmark.png",
+			"Rarity": "Heroic",
+			"Tags": [ "None" ],
+			"DropWeight": 0.001,
+			"LevelUpWeight": 0.001,
+			"MaxLevel": 1,
+			"Modifiers": [
+				{
+					"ModifierValue": 2,
+					"ModifierType": "Multiplier",
+					"Stat": "GoldMultiplier"
+				}
+			],
+			
+			"NameLocalization": {
+				"en": "Hand of Midas"
+			},
+			
+			"DescriptionLocalization":{
+				"en": "Helps max your gold"
+			}
+		}
+	]
+}
